@@ -20,5 +20,5 @@ function sumarInputValues(event) {
   // console.log({event});
   // event.preventDefault();
   const sumaInputs = input1.value + input2.value;
-  pResult.innerText = "Resultado: " + sumaInputs;
+  pResult.innerText = `Resultado: ${sumaInputs}`;
 }
